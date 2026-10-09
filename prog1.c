@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-	int n=5;
-	//scanf("%d",&n);
-	for(int i=0;i<n;i++){
-	for(int j=0;j<n;j++){
-	 printf("*");
-	 }
-	 printf("\n") ;
-	 }}	 
+	int a,b;
+	printf("enter any number:");
+	scanf("%d%d",&a,&b);
+	printf("%d",a/b);
+	return 0;
+	}
+	
